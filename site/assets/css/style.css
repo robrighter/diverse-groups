@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	top: 20px;
+	top: 10px;
 	right: 5px;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
@@ -361,10 +361,12 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: solid 2px transparent;
 }
 
+/**
 #portfoliowrap .proc:hover {
 	background-color: #eee;
 	border-bottom: solid 2px #2f2f2f
 }
+**/
 
 .portfolio {
 	background-image: url(../img/portfolio-sep.jpg);
@@ -487,4 +489,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .desc {
 	margin-top: 25px;
+}
+
+.special-case-lists ul {
+	padding-left: 18px;
 }
