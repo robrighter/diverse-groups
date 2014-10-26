@@ -33,8 +33,12 @@
 			$('#confirmmessage').slideDown('fast');
 		}
 	}
-	console.log('Params are');
-	console.log(params);
+
+	var ua = navigator.userAgent;
+	var isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
+	if(isMobileWebkit){
+		$('.sep').hide();
+	}
 
 
 })(jQuery)
