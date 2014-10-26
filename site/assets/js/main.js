@@ -7,6 +7,12 @@
 		$('#theMenu').toggleClass('menu-open');
 	});
 
+	$('.menu-wrap a').click(function(){
+		$('#menuToggle').removeClass('active');
+		$('body').removeClass('body-push-toleft');
+		$('#theMenu').removeClass('menu-open');
+	});
+
 	function getSearchParameters() {
 		var prmstr = window.location.search.substr(1);
 		return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
