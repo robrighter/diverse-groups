@@ -29,6 +29,14 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=138807269472833";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
   <h1 id="confirmmessage">Thank you for contacting us. We will respond to your inquiry shortly.</h1>
 		
 	<!-- Menu -->
@@ -59,6 +67,12 @@
 				</div>
 			</div><! --/row -->
 		</div><! --/container -->
+		<div class="calendar-overlay">
+			<div style="width:195px; text-align:center;" ><iframe src="https://www.eventbrite.com/calendar-widget?eid=18109770812" frameborder="0" height="426" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
+		</div>
+		<div class="facebook-overlay">
+			<div class="fb-like" data-href="http://facebook.com/diversegroups" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		</div>
 	</div><! --/headerwrap -->
 	
 	<section id="about" name="about"></section>

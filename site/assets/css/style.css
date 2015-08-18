@@ -283,10 +283,28 @@ a {
 	text-shadow: 2px 2px 2px #000;
 }
 
+#headerwrap .calendar-overlay {
+	position: absolute;
+	overflow: hidden;
+    top: 385px;
+    right: 20px;
+}
+
+#headerwrap .facebook-overlay {
+	position: absolute;
+    overflow: hidden;
+    top: 20px;
+    left: 20px;
+}
+
 /* About Wrap & Conf */
 #aboutwrap {
 	margin-top: 80px;
 	margin-bottom: 80px;
+}
+
+#aboutwrap h2 {
+	margin-top: 125px;
 }
 
 #aboutwrap a {
