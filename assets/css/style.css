@@ -297,6 +297,37 @@ a {
     left: 20px;
 }
 
+
+#smallheaderwrap {
+	background: url(../img/back.jpg) no-repeat center top;
+	margin-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 150px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#smallheaderwrap h1 {
+	color:#ffffff;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
 /* About Wrap & Conf */
 #aboutwrap {
 	margin-top: 30px;
@@ -448,7 +479,7 @@ a {
 }
 
 #contactwrap p {
-	color: #f2f2f2;
+	color: #bbb;
 }
 
 #contactwrap small {
@@ -462,6 +493,32 @@ a {
 #contactwrap label {
 	color: #f2f2f2;
 	margin-top: 10px;
+}
+
+#contactwrap a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+#socialwrap {
+	background-color: #1a1a1a;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+}
+
+#socialwrap a {
+	display: block;
+	color: #fff;
+	font-weight: bold;
+}
+
+#socialwrap img {
+	height: 50px;
+}
+
+img.shirtpic {
+	width: 200px;
 }
 
 
